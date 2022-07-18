@@ -31,6 +31,12 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ================COMPONENTS================ */
 body {
   font-family: var(--primary-page-font);
@@ -131,15 +137,8 @@ span {
   background-color: #2f303a;
 }
 
-.hero-page {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .hero-title {
   width: 696px;
-  height: 120px;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -173,10 +172,6 @@ span {
 }
 /* ================/HERO================ */
 /* ================ADVANTEGES================ */
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* сховав заголовок */
 .advantages-main-title {
@@ -221,6 +216,7 @@ span {
 /* ================ABOUT================ */
 
 .about {
+  padding-top: 0px;
   padding-bottom: 94px;
 }
 .about-list {
@@ -231,8 +227,6 @@ span {
 /* ================/ABOUT================ */
 /* ================EMPLOYEES================ */
 .employees {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -264,8 +258,8 @@ span {
 }
 
 .employees-secondary-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -275,7 +269,7 @@ span {
 }
 
 .employees-text {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.18;
@@ -286,9 +280,6 @@ span {
 
 /* =======MAIN PAGE PORTFOLIO ======== */
 
-.radio-btn {
-  margin: 94px 0;
-}
 /* СХОВАНИЙ ЗАОГОЛОВОК  */
 .btn-title {
   position: absolute;
@@ -306,7 +297,7 @@ span {
 .btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .btn-item:not(:last-child) {
@@ -352,10 +343,10 @@ span {
   border: 1px solid #eeeeee;
 }
 .portfolio-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -364,9 +355,9 @@ span {
 }
 
 .portfolio-text {
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-size: 16px;
   line-height: 1.88;
 
